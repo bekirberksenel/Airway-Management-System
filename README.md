@@ -1,0 +1,7 @@
+# Airway-Management-System
+
+Airway Schedule database holds the information of airplanes, employees schedules. It also keeps other important details such as passengers and airports.
+The airway database system consists of different parts. The airway database has different type of planes. Plane type has two children which are commercial one and passenger one. Commercial one keeps weight capacity and passenger plane keeps passenger capacity. Each plane must be related to plane type. Ech plane has unique plane ID.
+The airway db. Has also keeps track of person. Person has two sub-groups called employee and passenger. Passenger has a unique passenger ID. Employee has also three sub groups; pilots, hostesses and plane mechanics. Person keeps track of gender, name and unique ssn. Employee has start date and salary. There is relationship between person and planes. Passengers take tickets to fly on planes. Tickets have seat number, ticket number, from, to, time and date. Pilots drive both of commercial and passenger plane. Hostesses also host on plane. Plane mechanics take care of planes. Many plane mechanics take care of many planes. One pilot can drive one plane and many hostesses can host at one plane.
+There are also airports and schedules held in database. Airport has city and airport code. Schedules has two different sub groups called airplane Schedule and airport Schedule. Every airport has a airport Schedule based on that airway. Every airport has one airport Schedule and every plane has one airplane Schedule.
+
